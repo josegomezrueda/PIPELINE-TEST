@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Check npm version') {
             steps {
-                echo 'Building..'
+                sh 'npm version'
             }
         }
         stage('Test') {
@@ -15,11 +15,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-            }
-        }
-        stage('Check') {
-            steps {
-                echo 'Checking....'
             }
         }
     }
