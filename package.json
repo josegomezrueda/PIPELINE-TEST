@@ -1,0 +1,22 @@
+{
+  "name": "dependencies",
+  "version": "1.0.0",
+  "description": "test dependencies",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego97f/PipelineTest.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego97f/PipelineTest/issues"
+  },
+  "homepage": "https://github.com/diego97f/PipelineTest#readme"
+}
