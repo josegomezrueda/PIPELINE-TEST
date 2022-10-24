@@ -7,7 +7,6 @@ pipeline {
         stage('Check npm version') {
             steps {
                 sh 'npm version'
-                sh 'git https://github.com/diego97f/PipelineTest.git'
             }
         }
         stage('Build') {
