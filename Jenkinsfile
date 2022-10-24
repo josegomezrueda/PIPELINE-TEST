@@ -7,7 +7,6 @@ pipeline {
         stage('Check npm version') {
             steps {
                 sh 'npm version'
-                sh 'ls /usr/local/nodejs'
             }
         }
         stage('Build') {
