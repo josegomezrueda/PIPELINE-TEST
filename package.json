@@ -4,7 +4,7 @@
   "description": "test dependencies",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/diego97f/PipelineTest/issues"
   },
-  "homepage": "https://github.com/diego97f/PipelineTest#readme"
+  "homepage": "https://github.com/diego97f/PipelineTest#readme",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
 }

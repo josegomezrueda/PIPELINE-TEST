@@ -9,9 +9,15 @@ pipeline {
                 sh 'npm version'
             }
         }
-        stage('Build') {
+        stage('Building') {
             steps {
                 sh 'npm install'
+                sh 'npm rebuild'
+            }
+        }
+        stage('Testing') {
+            steps {
+                sh 'npm test'
             }
         }
         stage('Deploy') {
