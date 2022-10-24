@@ -9,9 +9,9 @@ pipeline {
                 sh 'npm version'
             }
         }
-        stage('Test') {
+        stage('Build') {
             steps {
-                echo 'Testing..'
+                sh 'npm version'
             }
         }
         stage('Deploy') {
